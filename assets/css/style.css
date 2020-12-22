@@ -133,7 +133,51 @@ h1 {
 /*=================================
   main styling starts here
 =================================*/
+/* banner styling starts here */
 
+.banner {
+  background-color: #d9e1e2;;
+}
+
+.form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+label {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.input-box{ margin: 10px 0; }
+
+.item-name,
+.input-box .item-count {
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+  padding: 7px 10px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  box-shadow: 0 0 3px #000;
+}
+
+.save-btn {
+  padding: 8px 15px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background-color: #00ecff;
+  color: #584e4e;
+  font-size: 15px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+/* banner styling ends here */
 /*=================================
   main styling ends here
 =================================*/
