@@ -178,6 +178,28 @@ label {
 }
 
 /* banner styling ends here */
+/* display styling starts here */
+
+.display-block { padding: 20px 0; }
+
+.display-list {
+  width: 100%;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.item-heading,
+.display-list .item-count,
+.edit-btn,
+.delete-btn {
+  padding: 5px;
+  flex-basis: 276px;
+}
+
+/* display styling ends here */
+
 /*=================================
   main styling ends here
 =================================*/
