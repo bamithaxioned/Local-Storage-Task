@@ -5,6 +5,7 @@ let saveBtn = document.getElementsByClassName("save-btn")[0];
 let itemName = document.getElementsByClassName("item-name")[0];
 let itemCount = document.getElementsByClassName("item-count")[0];
 let displayBlock = document.querySelector(".display-block");
+let clearBtn =  document.getElementsByClassName("save-btn")[1];
 
 // calling display function so that it will display even after browser is reloaded
 display();
@@ -61,6 +62,13 @@ function deleteItems(index) {
     display();
 
 }
+
+// FUNCTION TO CLEAR LIST
+clearBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    localStorage.clear('notes');
+    display();
+});
 
 // add Event Listener on btn
 saveBtn.addEventListener("click", (e) => {
